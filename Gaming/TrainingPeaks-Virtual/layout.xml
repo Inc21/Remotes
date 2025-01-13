@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout orientation="portrait" scroll="veritcal" onvolumedown="volume_down" onvolumeup="volume_up">
+	<row weight="1">
+		<label color="blue" weight="5" text="TP Virtual Companion" />
+	</row>
+	<row color="" weight="1">
+	</row>
+	<row weight="5">
+		<button image="left.png" scale="fit" lightcolor="#ffffff" darkcolor="#000000" ontap="left" />
+		<button image="uturn.png" scale="fit" lightcolor="#ffffff" darkcolor="#000000" ontap="uturn" />
+		<button image="right.png" scale="fit" lightcolor="#ffffff" darkcolor="#000000" ontap="right" />
+	</row>
+		<row color="" weight="1">
+	</row>
+	<row color="" weight="3">
+		<button visibility="invisible" text="" />
+		<button text="ARROW UP" icon="arrowup" ontap="action" />
+		<button visibility="invisible" text="" />
+	</row>
+	<row color="" weight="3">
+		<button text="ARROW LEFT" icon="arrowleft" ontap="left" />
+		<button color="red" text="ENTER" icon="select" ontap="enter" />
+		<button text="ARROW RIGHT" icon="arrowright" ontap="right" />
+	</row>
+	<row color="" weight="3">
+		<button visibility="invisible" text="" />
+		<button text="ARROW DOWN" icon="arrowdown" ontap="arrowdown" />
+		<button visibility="invisible" text="" />
+	</row>
+	<row color="" weight="1">
+	</row>
+	<row color="" weight="3">
+		<button text="+" ontap="increase" />
+		<button text="-" ontap="decrease" />
+		<button text="Take a Screenshot" icon="camera" ontap="screenshot" />
+	</row>
+	<row color="" weight="3">
+		<button text="HUD" textalign="center" ontap="HUD" />
+		<button text="SLOW DOWN" textalign="center" ontap="brakes" />
+		<button text="TAKE A BREAK" textalign="center" ontap="takeabreak" />
+	</row>
+	<row weight="3">
+		
+		<button text="NEARBY PLAYERS" textalign="center" ontap="Players_List" />
+		<button text="ROUTE PROFILE" textalign="center" ontap="route" />
+		<!-- <button text="PAIRING" textalign="center" ontap="pairing" /> -->
+		<button text="ACTION MENU" textalign="center" ontap="action" />
+	</row>
+	<row weight="1">
+	</row>
+	<row weight="1">
+		<label color="blue" weight="5" text="Workout Mode" textalign="center" />
+	</row>
+	<row weight="3">
+		<button text="PWR GRAPH" textalign="center" ontap="graph" />
+		<button text="ERG MODE" textalign="center" ontap="erg" />
+		<button text="WORKOUT ELEMENTS" textalign="center" ontap="workout" />
+	</row>
+	<row weight="3">
+		<button text="HARDER" icon="up" ontap="harder" />
+		<button text="EASIER" icon="down" ontap="easier" />
+		<button text="SKIP BACKWARDS" icon="rwd" ontap="forward" />
+		<button text="SKIP FORWARD" icon="ff" ontap="back" />
+		<button text="PAUSE WORKOUT" icon="pause" ontap="pause" />
+	</row>
+</layout>
